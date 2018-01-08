@@ -38,9 +38,10 @@ window.onload = function(){
 
 //dificultat
 
-if (document.getElementsByClassName("m212")[0].style.display = "block"){limit = "7";}
-else
-    {limit="5"};
+if
+(document.getElementsByClassName("m212")[0].style.display=block);
+{confirm("has guanyat")};
+    
     
 
 
