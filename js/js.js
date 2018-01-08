@@ -39,7 +39,7 @@ window.onload = function(){
 //dificultat
 
 if
-(document.getElementsByClassName("m212")[0].style.display=block);
+(document.getElementsByClassName("m212")[0].style.display);
 {confirm("has guanyat")};
     
     
