@@ -1,0 +1,265 @@
+#menu{
+    display:none;
+}
+body, html {
+    
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+     overflow-x: hidden;
+      overflow-y: hidden;
+
+}
+
+body {
+    
+    background-image: url("../img/weno2.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-size: 3vw;
+    font-size: 100%;
+   
+    
+}
+
+.a {
+    
+    width: 50%;
+    height: 63%;
+    left: 0%;
+    overflow: hidden;
+    position: absolute;
+    top: 0%;
+    font-size: 120%;
+
+}
+
+#showm {
+    
+    left: 480px;
+
+}
+
+#cpanel {
+    
+    padding-left: 5px;
+    width: 100%;
+    height: 75%;
+}
+
+.l, .ll {
+    
+    padding-top: 1.5%;
+    padding-bottom: 4%;
+    padding-right: 4%;
+    padding-left: 2%;
+    color: white;
+    position: relative;
+    width: 40%;
+    border: 5px solid grey;
+    height: 20%;
+    top: 1%;
+    left: 1%;
+    border-width: 3px;
+}
+
+.l, .lm, .lm3, .lm1 {
+    
+    border-bottom: none;
+}
+
+.c {
+    
+    width: 55%;
+    right: 3%;
+    position: absolute;
+    top: 0%;
+    height: 65%;
+    font-size: 52%;
+}
+
+.b {
+    
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+}
+
+#nau {
+    
+    text-align: center;
+    position: relative;
+    top: 5%;
+    width: 105%;
+    height: 15%;
+}
+
+#menu, .m, .lm, .lm3, .lm1{
+    
+    left: 60%;
+    height: 35%;
+    top:30%;
+    padding-left:3%;
+    
+}
+#show_hide{
+    left:60%;
+    top:1.5%;
+    position:fixed;
+}
+.hide{
+    display:none;
+    top:2%;
+}
+
+#nav {
+    
+    height: 100%;
+    
+}
+
+.m, .lm, .lm3, .lm1 {
+    
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 3%;
+    position: relative;
+    width: 25%;
+    border: 2px solid grey;
+    height: 15%;
+}
+
+.l, .lm {
+    
+    border-bottom: none;
+}
+
+/* unvisited link */
+a:link {
+    
+    color: deepskyblue;
+}
+
+/* visited link */
+a:visited {
+    
+    color: cornflowerblue;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    
+    color: yellow;
+}
+
+a {
+    font-size: 170%;
+    text-decoration: none;
+}
+
+#box {
+    color: firebrick    ;
+    text-align: center;
+    position: fixed;
+    top:2%;
+    width: 60%;
+    left: 25%;
+    font-size: 120%;
+    text-justify: inter-word;
+    background-color: rgba(255,255,255,0.3);
+    padding-right: 5%;
+    padding-left: 3%;
+}
+.m2, .lm2 {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 3%;
+    position: relative;
+    width: 25%;
+    border: 5px solid grey;
+    height: 15%;
+  
+}
+.lm2, .lm1{
+    border-bottom:none;
+
+}
+.m2{
+    z-index:2;
+}
+.c2 {
+     
+    position: fixed;
+    height: 90%;
+    left:25%;
+}
+
+.lm3, .lm{
+    display:none;
+    border-bottom:none;
+}
+#titul {
+    text-decoration: none;
+    color: red;
+    font-size: 100%;
+    height:20%;
+    top: 69%;
+    text-align: center;
+  
+    position: relative;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 20px;
+    padding: 80px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    letter-spacing: .10em;
+   text-shadow: 5px -4px 2px rgba(255, 74, 48, 1);
+       
+}
+#box {
+    text-decoration: underline;
+}
+
+#menu2{
+    width:100%;
+    text-align:center;
+    position:fixed;  
+}
+#nav1{
+    display:none;
+}
+#menu22{
+    width:55%;
+    font-size:100%;
+    text-align:center;
+    position:fixed;
+    top:5%;
+    overflow-y:hidden;
+   
+}
+.n2{
+    padding-top:5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom:5%;
+    position: relative;
+    width: 80%;
+    border: 2px solid grey;
+    height: 15%;
+    text-align:justify;
+    background-color: rgba(255,255,255,0.9);
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 13px;  
+    color: darkred;
+}

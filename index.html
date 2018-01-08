@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lunar Landing</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+        <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+
+    </head>
+    <body>
+           <script >
+            window.onload = function(){
+         document.getElementsByClassName("m2")[0].onclick = function() {
+          document.getElementsByClassName("m2")[0].style.display = "none";
+          document.getElementsByClassName("m212")[0].style.display = "block";
+          
+      };
+       document.getElementsByClassName("m212")[0].onclick = function() {
+        document.getElementsByClassName("m212")[0].style.display = "none";
+        document.getElementsByClassName("m2")[0].style.display = "block";
+    };
+}
+    </script>
+        
+        <div id="titul">
+            <h1>
+                Lunar Landing
+            </h1>
+        </div>
+        <div id="box">
+            <h1>Instruccions</h1>
+            <p>
+                L'objectiu principal és aconseguir que el coet aterritzi a una velocitat inferior a 5 m/s       
+                Pitjant qualsevol tecla el coet s'encendrà i baixarà la velocitat de caiguda
+                Cada segon que es mante el coet encès, el fuel baixa      
+                Si el coet arriba a 0 d'altura a més de 5 m/s explotarà        
+                Bona sort!
+            </p>
+        </div>    
+        <div id="nau">
+            <img id="nav1" src="img/nau122.png" alt="">
+        </div>
+        <div class="a">
+            <ul id="cpanel">
+                <li class="l">Fuel <span id="fuel">100</span> ltr</li>
+                <li class="l"> Altitut <span id="altitut">0</span> m</li>
+                <li class="ll">Velocitat <span id="velocitat">0</span> m/s</li>
+            </ul>
+        </div>
+        <div class="c2">
+            <ul id="menu2">
+                <li class="lm2"><a href=joc.html>Jugar</a></li>            
+                <li class="lm2"><a href=about.html>About</a></li>
+                <li class="m2"><a href=#>Dificultat:Facil</a></li>
+                <li class="m212"><a href=#>Dificultat:Difícil</a></li>
+            </ul>
+        </div>
+     
+    </body>
+</html>
